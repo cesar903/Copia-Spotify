@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS Link Externo -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   
+    <!-- icon CSS -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css">
+
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <title>Spotify</title>
+    <style>
+        .tudo{
+            background: url("imagens/capa.png"),
+            url("imagens/ruido.png"),
+            linear-gradient(50deg,#ff4169,#7c26f8)!important;
+            position: relative;
+            height: 100% !important;
+            width: 100% !important;
+            background-repeat: repeat !important;
+            background-size: cover !important;
+            background-position: right !important;
+            background-attachment: fixed !important;
+            overflow-x: hidden !important;
+            
+   
+        }
+        .fundo{
+            height: 100%;
+            align-self: center;
+        }
+        body, html{
+        margin: 0px;
+        font: 16px "Lato", sans-serif;
+        color: #777;
+        height: 100%;
+    }
+         
+        
+
+        nav.navbar-transparente{
+            padding: 15px 0px;
+            background:rgba(0,0,0,0.6 );
+        }
+        .navbar-light .navbar-nav .nav-link{
+            color: white !important;
+        }
+        .navbar-light .navbar-nav .nav-link:hover{
+            color: #9bf0e1 !important;
+        }
+        .navbar-light .navbar-toggler {
+            color: white !important;
+            border-color: rgba(255, 255, 255, 0.473) !important;
+        }
+        h1{
+            text-align: center;
+        
+        }
+        .btn-outline-info {
+            color: white !important;
+            border-color: white !important;
+            border-radius: 30px !important;
+            
+        }
+        .btn-outline-info:hover {
+            background: rgb(113, 42, 226) !important;
+            color: white !important;
+        }
+        .botao{
+            height: 60px;
+            text-align: center;
+            align-self: center;
+        }
+        .rotacionar{
+            -ms-transform: rotate(30deg);
+            -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+            padding-left: 80px;
+            
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            color: white !important;
+            text-decoration: none !important;
+        }
+        a:hover{
+            color: #9bf0e1 !important;
+        }
+        .carousel-control-next, .carousel-control-prev{
+            width: 5%;
+        }
+    </style>
+
+<body >
+<div class="tudo">
+
+
+    <div class="container fundo d-flex flex-column justify-content-center align-items-cente">
+        <header >
+            <nav class="navbar navbar-expand-md navbar-light fixed-top  navbar-transparente ">
+                <div class="container">    
+                    <a href="" class="navbar-brand ml-4"><img src="imagens/spotify.svg" class="img-fluid" width="142" alt=""></a>
+    
+                    <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#abrir">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse navbar-light ml-5 pl-5" id="abrir">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-white">Premium</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-white">Ajuda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-white">Baixar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-white d-none d-lg-block">|</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-white ">Inscrever-se</a>
+                            </li>
+                           
+                            <li class="nav-item">
+                                <a href="" class="nav-link text-white ">Entrar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>   
+            </nav>
+        </header>
+    </div>
+    <section>
+            <div class="container-fluid">
+                <div class="row justify-content-center text-center">
+                    <div class="container">
+                        <div class="carousel slide" id="carousel" data-ride="carousel">
+
+                            
+                            <div class="carousel-inner">
+                               
+                                <div class="carousel-item active ">
+
+                                    <div class="col-12 mb-3">
+                                        <h1 class="text-white  font-weight-bolder text-center" ><strong> Música para todos</strong></h1>
+                                    </div>
+                                    
+                                    
+                                    <div class="row justify-content-center text-center">
+                                        <div class="col-lg-4 col-sm-10 ">
+                                            <a href="" class="botao btn btn-lg btn-outline-info btn-block text-uppercase font-weight-bolder  mb-2 pt-lg-0">
+                                            <h5 class="  mt-md-0 mt-lg-3 mt-md-2  pt-lg-0" >Aproveite o spotify Free</h5> 
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-10 mb-auto text-center">
+                                            <a href="" class="botao btn btn-lg btn-outline-info btn-block text-uppercase font-weight-bolder ">
+                                            <h5 class="pt-md-2 pt-lg-0 text-center mt-lg-2 mt-md-0">Obter o spotify pago</h5> 
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                    <div class="carousel-item ">
+                                        <div class="col-12">
+                                            <h1 class="text-white  font-weight-bolder text-center" ><strong> Radio a Qualquer momento</strong></h1>
+                                        </div>
+                                        <div class="row justify-content-center text-center">
+                                            <div class=" col-sm-12 col-lg-6 mb-5 ">
+                                                <a href="" class="botao  btn btn-lg btn-outline-info btn-block text-uppercase font-weight-bolder ">
+                                                <h5 class="pt-md-2 pt-lg-0 botaoesp mt-lg-2 text-center mt-md-0">Ouça as nossas Rádios</h5> 
+                                                </a>
+                                            </div>
+                                        </div>
+    
+                                        
+                                    </div>
+                            
+                        </div>
+                       
+                </div>
+
+                    </div>
+                    <div class="d-none d-md-block">
+                        <a href="#carousel" class="carousel-control-prev " data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#carousel" class="carousel-control-next" data-slide="prev">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>  
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-light">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div class="row ">
+                        <div class="col-md-6 mt-4 d-none d-md-block ">
+                                <img src="imagens/img1.jpg" class="img-fluid"  alt="">
+                        </div>
+                        <div class="col-md-6 mt-4 d-none d-md-block">
+                                <img src="imagens/img2.jpg" class="img-fluid"  alt="">
+                        </div>
+                    </div>
+                    <div class="row mt-4 mb-4 ">
+                            <div class="col-md-6 mt-4 d-none d-md-block">
+                                    <img src="imagens/img3.jpg" class="img-fluid "  >
+                            </div>
+                            <div class="col-md-6 mt-4 d-none d-md-block">
+                                    <img src="imagens/img4.jpg" class="img-fluid" >
+                            </div>
+                    </div>
+                </div>  
+                <div class="col-md-6 mt-3 mb-5">
+                    <h2 style="color: darkorchid;">
+                        O que tem no Spotify?
+                    </h2>
+                    <H3 style="color: rgb(122, 20, 240);">Músicas</h3>
+                    <P>O Spotify tem milhões de musicas. Escute Seus sons favoritos,
+                        descubra novas músicas e reúna seus conteudos favoritos em um só lugar
+                    </P>
+                    <h2 style="color: rgb(122, 20, 240);">Playlists</h2>
+                    <p>No spotify voce conta com playlists exclusivas para você e cada momento. 
+                        Todas feitas pos especialistas na area</p>
+                        
+                    <h2 style="color: rgb(122, 20, 240);">
+                        Novos lançamentos
+                    </h2>
+                    <p>Escute os novos lançamentos de single e álbuns da semana e
+                         veja o que esta bombando no top 50</p>
+                    
+                    
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mt-3">
+                    <h1 style="color: white">Fácil</h1>
+                    <h2 style="color: #9bf0e1 ">Buscar</h2>
+                    <p style="color: white ">Já sabe o que escutar? É so Procurar e apertar o play</p>
+                    
+                    <h2 style="color: #9bf0e1 ">Navegar</h2>
+                    <p style="color: white ">Veja os lançamentos, o que esta bombando nas paradas e os melhores 
+                        hits para o seu momento</p>
+                    
+
+                    <h2 style="color: #9bf0e1 ">Descobrir</h2>
+                    <p style="color: white ">Curta as musicas novas toda segunda-feira com uma playlist personalizada por você. 
+                        Ou relaxe e curta uma de nossas m uitas radios
+                    </p>
+                    
+                </div>
+                    <div class="col-md-8">
+                        <div class="row rotacionar">
+                            <div class="col-md-6">
+                                <img src="imagens/iphone1.png" class="img-fluid d-none d-md-block" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="imagens/iphone2.png"class="img-fluid d-none d-md-block" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer style="background: black; width: 100%; height: auto;" class="position-absolute mt-lg-5 pt-5">
+        <div class="row justify-content-around">
+           
+            <div class="col-md-2  d-none d-md-block align-self-center justify-content-center">
+                <img src="imagens/spotify.svg" class="img-fluid " alt="">
+            </div>
+            <div class="col-md-2  col-sm-4 ">
+                <ul>
+                    <h5>Company</h5>
+                    <li class=""><a href="" class="">Sobre</a></li>
+                    <li><a href="" class="">Empregos</a></li>
+                    <li><a href="" class="">Imprensa</a></li>
+                    <li><a href="" class="">Novidades</a></li>
+                </ul>
+                   
+            </div>
+
+            <div class="col-md-2  col-sm-4 ">
+                <ul class="">
+                    <h5>Comunidade</h5>
+                    <li><a href="" class="">Artistas</a></li>
+                    <li><a href="" class="">Desenvolvedores</a></li>
+                    <li><a href="" class="">Marcas</a></li>
+                </ul>
+                   
+            </div>
+
+            <div class="col-md-2  col-sm-4 ">
+                <ul>
+                    <h5 class="">Links úteis</h5>
+                    <li><a href="" class="">Ajuda</a></li>
+                    <li><a href="" class="">Presentes</a></li>
+                    <li><a href="" class="">Navegador da web</a></li>
+                </ul>
+                   
+            </div>
+            
+            <div class="col-sm-6 d-none d-md-none d-sm-block align-self-center justify-content-center ">
+
+                <img src="imagens/spotify.svg" class="img-fluid " alt="">
+            </div>
+
+            <div class="col-md-3 col-sm-6 align-self-center justify-content-end pl-5 ">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="imagens/facebook.png" alt="" class="img-fluid mr-3">
+
+                    </div>
+                    <div class="col-4">
+                        <img src="imagens/twitter.png" alt="" class="img-fluid mr-3">
+           
+                    </div>
+                    <div class="col-4">
+                        <img src="imagens/instagram.png" alt="" class="img-fluid mr-3">
+
+                    </div>
+
+                </div>   
+                
+               
+            </div>
+        </div>
+    </footer>
+    
+</div>
+
+   
+   
+ 
+    <!-- Optional JavaScript; choose one of the two! -->
+
+ <!--Bootstrap 4 -->
+ 
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
